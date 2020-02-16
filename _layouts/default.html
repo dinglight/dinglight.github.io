@@ -1,11 +1,7 @@
 <!DOCTYPE html>
 <html>
 
-<head>
-	<title{page.tle }}</title>
-		<!-- link to main stylesheet -->
-		<link rel="stylesheet" type="text/css" href="/css/main.css">
-</head>
+{% include head.html %}
 
 <body>
 	{% include nav.html %}
@@ -14,12 +10,7 @@
 		{{ content }}
 
 	</div><!-- /.container -->
-	<footer>
-		<ul>
-			<li><a href="mailto:tlight183@sohu.com">email</a></li>
-			<li><a href="https://github.com/dinglight">github.com/dinglight</a></li>
-		</ul>
-	</footer>
+	{% include footer.html %}
 </body>
 
 </html>
