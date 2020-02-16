@@ -1,2 +1,3 @@
 name: dinglight       # the name of our site
 markdown: kramdown    # markdown version
+permalink: /blog/:year/:month/:day/:title
